@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  font-family: sans-serif;
+  padding: 1rem;
+  max-width: 30rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  padding: 0.5rem 0;
+  gap: 0.5rem;
+}
+.form-item {
+  display: flex;
+  flex-direction: column;
+}
+
+.share-container {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
